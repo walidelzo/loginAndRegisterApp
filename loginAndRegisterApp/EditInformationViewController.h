@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "CreateAccountViewController.h"
 @protocol EditInformationViewControllerDeleget
+
 -(void)DidSave;
 -(void)DidCancel;
+
 @end
 
 

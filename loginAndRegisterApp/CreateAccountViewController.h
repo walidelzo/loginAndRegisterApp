@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PrefixHeader.pch"
+
 @protocol CreateAccountViewControllerDelegete
 -(void)DidCreate;
 -(void)DidCancel;

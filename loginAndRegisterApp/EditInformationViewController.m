@@ -30,14 +30,14 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 -(void)MakeAlert:(NSString*)Message{
     UIAlertController*alert=[UIAlertController alertControllerWithTitle:@"Alert" message:Message preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *action=[UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleCancel handler:nil];
@@ -58,10 +58,8 @@
         [[NSUserDefaults standardUserDefaults]setObject:_fullNameEditTextField.text forKey:R_FULL_NAME];
         [[NSUserDefaults standardUserDefaults]setObject:_emailEditTextField.text forKey:R_USER_EMAIL];
         [[NSUserDefaults standardUserDefaults]synchronize];
+        [self.delegate DidSave];
         
-        
-    [self.delegate DidSave];
-    
     }
     
 }
