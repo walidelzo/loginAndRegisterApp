@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  loginAndRegisterApp
+//
+//  Created by walidelzo on 8/27/18.
+//  Copyright © 2018 walidelzo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define R_USER_NAME @"user name"
+#define R_PASS_WORD @"User password"
+#define R_FULL_NAME @"user Full Name"
+#define R_USER_EMAIL @"user Email"
+
+
+
+#endif /* PrefixHeader_pch */
+

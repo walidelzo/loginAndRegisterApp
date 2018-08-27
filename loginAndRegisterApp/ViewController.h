@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EditInformationViewController.h"
+@interface ViewController : UIViewController<EditInformationViewControllerDeleget>
 
-@interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *userLabel;
+@property (weak, nonatomic) IBOutlet UILabel *emailLabel;
+@property (weak, nonatomic) IBOutlet UILabel *fullNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *passwordLabel;
+- (IBAction)EditMyProfilePress:(UIButton *)sender;
 
 @end
 

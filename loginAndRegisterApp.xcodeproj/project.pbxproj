@@ -13,9 +13,13 @@
 		029116602131E53E00B0E2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0291165F2131E53E00B0E2B1 /* Assets.xcassets */; };
 		029116632131E53E00B0E2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029116612131E53E00B0E2B1 /* LaunchScreen.storyboard */; };
 		029116662131E53E00B0E2B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029116652131E53E00B0E2B1 /* main.m */; };
+		0291166E2131E5AB00B0E2B1 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291166D2131E5AB00B0E2B1 /* CreateAccountViewController.m */; };
+		029116712131E5BA00B0E2B1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029116702131E5BA00B0E2B1 /* LoginViewController.m */; };
+		029116742131E5CE00B0E2B1 /* EditInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029116732131E5CE00B0E2B1 /* EditInformationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023CF21F2133D0D60007224B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		029116532131E53100B0E2B1 /* loginAndRegisterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginAndRegisterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029116562131E53100B0E2B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		029116572131E53100B0E2B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,12 @@
 		029116622131E53E00B0E2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029116642131E53E00B0E2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		029116652131E53E00B0E2B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0291166C2131E5AB00B0E2B1 /* CreateAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		0291166D2131E5AB00B0E2B1 /* CreateAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		0291166F2131E5BA00B0E2B1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		029116702131E5BA00B0E2B1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		029116722131E5CE00B0E2B1 /* EditInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditInformationViewController.h; sourceTree = "<group>"; };
+		029116732131E5CE00B0E2B1 /* EditInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditInformationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +71,15 @@
 				029116562131E53100B0E2B1 /* AppDelegate.h */,
 				029116572131E53100B0E2B1 /* AppDelegate.m */,
 				029116592131E53100B0E2B1 /* ViewController.h */,
+				023CF21F2133D0D60007224B /* PrefixHeader.pch */,
 				0291165A2131E53100B0E2B1 /* ViewController.m */,
 				0291165C2131E53100B0E2B1 /* Main.storyboard */,
+				0291166C2131E5AB00B0E2B1 /* CreateAccountViewController.h */,
+				0291166D2131E5AB00B0E2B1 /* CreateAccountViewController.m */,
+				0291166F2131E5BA00B0E2B1 /* LoginViewController.h */,
+				029116702131E5BA00B0E2B1 /* LoginViewController.m */,
+				029116722131E5CE00B0E2B1 /* EditInformationViewController.h */,
+				029116732131E5CE00B0E2B1 /* EditInformationViewController.m */,
 				0291165F2131E53E00B0E2B1 /* Assets.xcassets */,
 				029116612131E53E00B0E2B1 /* LaunchScreen.storyboard */,
 				029116642131E53E00B0E2B1 /* Info.plist */,
@@ -141,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0291166E2131E5AB00B0E2B1 /* CreateAccountViewController.m in Sources */,
 				0291165B2131E53100B0E2B1 /* ViewController.m in Sources */,
 				029116662131E53E00B0E2B1 /* main.m in Sources */,
+				029116742131E5CE00B0E2B1 /* EditInformationViewController.m in Sources */,
 				029116582131E53100B0E2B1 /* AppDelegate.m in Sources */,
+				029116712131E5BA00B0E2B1 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
